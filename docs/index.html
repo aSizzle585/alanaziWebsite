@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <title>aalanazi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Optional: Smooth scrollbar style */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+    </style>
+  </head>
+
+  <body class="bg-black text-white overflow-x-hidden">
+
+    <!-- Main Page -->
+    <div id="main-page" class="fixed top-0 left-0 w-full h-full transition-transform duration-500 overflow-y-auto overflow-x-hidden bg-black text-white">
+      <section class="relative flex flex-col items-center pt-16 pb-20 px-4 min-h-screen">
+        <!-- Desktop Logo -->
+        <div class=" hidden sm:flex absolute top-6 left-6 items-center justify-center transparent items-trans">
+          <span class="text-[32px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-400">A</span>
+        </div>
+
+        <!-- Portfolio Button -->
+        <button id="portfolio-btn" class="absolute top-6 
+          sm:translate-x-0 sm:left-auto pt-2 sm:pt-2 sm:right-6 font-semibold hover:text-blue-400 text-3xl sm:text-2xl flex space-x-2">
+          <span>Portfolio</span>
+          <span>→</span>
+        </button>
+
+        <!-- Heading -->
+        <h1 class="mt-12 text-7xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-400 text-center leading-tight">
+          <span class="block sm:inline">Abdulaziz</span>
+          <span class="block sm:inline sm:ml-2">Alanazi</span>
+        </h1>
+
+        <!-- Subtitle if I want to -->
+        <p class="mt-4 text-base sm:text-lg md:text-xl text-center max-w-md"> 
+        </p>
+
+        <!-- Underline bar -->
+        <div class="mt-20 w-24 sm:w-32 md:w-40 h-1 rounded-full bg-gradient-to-r from-blue-100 to-blue-400"></div>
+
+        <div class="w-full min-h-screen flex justify-center mt-20 px-4">
+          <section
+            class="bg-white box-border w-[95%] sm:w-[50%] max-w-6xl min-h-[600px]
+                   flex flex-col items-center justify-center rounded-lg shadow-md
+                   hover:scale-105 transition-transform duration-300 drop-blue-2xl"
+          >
+            <p class="text-black text-center pl-4 pr-4">
+              Hey, I’m Aziz—studying <strong>Computer Engineering</strong> at
+              <strong>Purdue University</strong>. I’m obsessed with
+              <strong>Virtual Reality</strong> and the magic of building
+              <strong>Web Apps</strong> that people actually enjoy using.
+            </p>
+        
+            <p class="text-black pt-4 pl-4 pr-4 text-center">
+              My time doing <strong>bioinformatics</strong> research at
+              <strong>KAUST</strong> taught me to love the data side of things, but
+              my heart really beats for <strong>immersive tech</strong>—those moments
+              when you put on a headset and everything else just… melts away.
+            </p>
+        
+            <p class="text-black pt-4 pl-4 pr-4 text-center">
+              When I’m not coding or sketching UI ideas, I’m dreaming about
+              <strong>startups</strong>—reading founder stories, imagining the next
+              breakthrough, and geeking out over everything I learn about
+              <strong>venture capital</strong>.
+            </p>
+        
+            <p class="text-black pt-4 pl-4 pr-4 text-center">
+              I’m also super curious about how <strong>AI</strong> and
+              <strong>robotics</strong> might team up with VR to create the future
+              of interactive experiences. Always tinkering, always learning.
+            </p>
+          </section>
+        </div>
+        
+                  
+        
+      </section>
+    </div>
+
+    <!-- Portfolio Page -->
+    <div id="portfolio-page" class="fixed top-0 left-0 w-full h-full translate-x-full transition-transform duration-500 bg-black text-white overflow-y-auto overflow-x-hidden">
+      <div class="min-h-screen flex flex-col items-center justify-center px-4">
+        <button id="home-btn" class="absolute top-6 left-6 text-2xl sm:text-2xl font-semibold hover:text-blue-400">
+          ← Home
+        </button>
+        <button id="scla-btn" class="absolute top-6 right-6 text-2xl sm:text-2xl font-semibold hover:text-blue-400 flex items-center space-x-2">
+          <span>SCLA111</span>
+          <span>→</span>
+        </button>
+
+        <h1 class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-blue-400 mt-20">
+          Portfolio
+        </h1>
+      </div>
+    </div>
+
+    <!-- SCLA11100 Page -->
+    <div id="scla-page" class="fixed top-0 left-0 w-full h-full translate-x-full transition-transform duration-500 bg-black text-white overflow-y-auto overflow-x-hidden">
+  <div class="flex flex-col items-center justify-start px-4 pt-8">
+    <button id="back-to-portfolio-btn" class="absolute top-6 text-center sm:left-6 text-3xl sm:text-2xl font-semibold hover:text-blue-400">
+      ← Portfolio
+    </button>
+
+    <h1 class="pt-12 text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-blue-400 mt-8">
+      SCLA11100
+    </h1>
+
+    <h2 class="text-3xl font-extrabold pt-60 pb-20">
+      Capstone Statement
+    </h2>
+
+    <div class="w-full flex justify-center px-4 mt-4">
+      <section>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          SCLA 111 helped me see the deeper connections between language, culture, and identity. One of the biggest things I learned 
+          was how our cultural background shapes the way we communicate and understand each other. We explored themes like cultural 
+          identity, communication across different cultures, and what it means to be a global citizen. Through readings, class 
+          discussions, and writing assignments, I became more aware of my own perspective and how to listen to others with more 
+          empathy and curiosity. 
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8">
+          This reflection shows how I have grown in expressing my ideas clearly and thinking more critically 
+          about the world around me. It is not just about writing better, it is about understanding people better. I have come out of 
+          this course more confident in my communication skills and more prepared to interact in diverse environments, whether that 
+          is in future classes, work, or everyday life.
+        </p>
+      </section>
+    </div>  
+
+    <div class="w-full flex justify-center px-4">
+      <section>
+        <h2 class="text-3xl font-extrabold text-center pt-40 pb-20">
+          Cultural and Language Profile
+        </h2>
+        <p class="text-white text-center pl-4 pr-4 font-semibold pb-4">
+          Growing up speaking both Arabic and English has always been a big part of who I am. I kind of live in two worlds, 
+          and honestly, that used to confuse me. Sometimes I felt like I had to be one version of myself when speaking Arabic 
+          with family and a whole different version when speaking English at school or with friends. In SCLA 111, we talked about 
+          code switching, and it finally clicked. I realized I am not being fake or trying to fit in. I am just adapting. It is 
+          actually kind of a superpower. I switch depending on who I am talking to, and that helps me connect with all kinds of 
+          people.
+        </p>
+        <p class="text-white text-center pl-4 pr-4 font-semibold pb-4">
+          One thing that stuck with me from the class is how people treat languages differently. This idea of language ideology 
+          really made me think. Back home, English sometimes gets put on a pedestal, as if you speak it well, you are automatically 
+          smart or professional. And Arabic, even though it is my first language, can be looked down on in some academic spaces. 
+          That used to make me shy about speaking Arabic in public. But now, I get it. It is not the language that is the issue, 
+          it is the bias people have. Every language has its own beauty and depth. I am proud of both.
+        </p>
+        <p class="text-white text-center pl-4 pr-4 font-semibold pb-4">
+          When it comes to cultural identity, I used to think I had to pick a side. Am I Saudi or am I someone studying in the 
+          US trying to fit into a different culture? Turns out I am both. And that is okay. I carry cultural values like hospitality, 
+          respect, and family loyalty with me everywhere. At the same time, being in the US taught me the value of speaking up, 
+          being independent, and thinking outside the box. I have learned to mix both sets of values depending on the situation.
+        </p>
+        <p class="text-white text-center pl-4 pr-4 font-semibold">
+          One last thing I took from this class is intercultural competence. It is more than just knowing how to talk to people
+          from different places. It is about listening, being curious, and not making assumptions. This class helped me become
+          more aware of how I show up in conversations and how to be more open. My language and culture journey is still going,
+          but now I feel more grounded in who I am and how I communicate.
+        </p>
+      </section>
+    </div> 
+    
+    <h2 class="text-3xl font-extrabold text-center pb-20 pt-40">
+      Capstone Reflection
+    </h2>
+    <div class="w-full flex justify-center">
+      <section>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          Throughout the past semester, I have learned many things and built upon lessons I
+          gained from the mistakes I made last semester. However, my initial thought that
+          this class was just an easy A meant to boost my GPA was one of the biggest
+          assumptions I made, and I now see how wrong I was. This class has turned out to be
+          one of the most reflective and meaningful courses I have ever taken. It really made
+          me think about who I am, where I come from, and how that influences the way I
+          see the world.
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          This realization began from day one when we all introduced ourselves and shared
+          the places we came from. A big thing I noticed was the strong emphasis on
+          learning about American values, but also connecting them to our own cultural and
+          personal values. For example, in Project One, we were asked to create our own
+          values that reflect our unique identities and backgrounds. That activity made me
+          realize that we each carry a different set of beliefs and ideas shaped by where
+          we were raised, the families we come from, and the cultures that surround us.
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          But that was only the beginning. Our professor continuously made the effort to
+          relate our personal backgrounds to the topics we discussed in class. Whether it
+          was in group discussions, lectures, or writing assignments, we were encouraged
+          to think about how our own experiences shaped the way we interpreted the
+          material. This class was not just about memorizing or understanding concepts.
+          It was about learning to appreciate others, their cultures, and the different
+          ways people see the world. Professor Bras created an environment that felt
+          welcoming and respectful, and that made a huge difference.
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          In Project Two, we each picked an American value and, together with our team
+          members, created a presentation showing our understanding of that value. I have
+          always been someone who prefers to work alone. I usually try to avoid group work
+          because I find it stressful trying to divide tasks or worrying whether the other
+          people will do their part. At first, I still felt that way, and I did not enjoy it
+          much. But this project helped me realize something important. My teammate
+          turned out to be one of the most dependable and supportive people I have worked
+          with. It reminded me of how Jem and Scout thought Boo Radley was a monster in
+          <em>To Kill a Mockingbird</em>, but in reality, once they gave him a chance, he
+          was just a quiet and kind man. I learned a similar lesson from this project—
+          sometimes people surprise you in a good way if you just give them a chance.
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8 pb-8">
+          Finally, we reached Project Three, the capstone of the semester. This project gave
+          me a chance to reflect on all the work I have done and everything I have learned
+          throughout the course. It brought everything together and made me realize just
+          how much I have grown. I learned to reflect deeply, express myself more clearly,
+          and connect with others in a more thoughtful and open way.
+        </p>
+        <p class="text-white font-semibold text-center pl-8 pr-8">
+          Even as I move on to my sophomore year, I hope to carry these lessons with me.
+          I want to keep learning, growing, and becoming someone who listens and
+          understands others better. I am thankful to my professor, Heejeon Bras, to Purdue
+          University for giving me this opportunity, and to my country, Saudi Arabia, for
+          making it possible for me to study here and gain such a valuable experience.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <!-- Links to Selected Works Section -->
+<h2 class="text-3xl font-extrabold text-center pt-40 pb-4">
+  Links to Selected Works
+</h2>
+<div class="w-full flex justify-center px-4 mb-20">
+  <section>
+    <ul class="list-disc list-inside space-y-2 text-white text-center">
+      <li>
+        <a href="Double Entry Journal.pdf" target="_blank" class="text-blue-400 hover:underline">
+          Double Entry Journal for the Book "To Kill a Mocking Bird"
+        </a>
+      </li>
+      <li>
+        <a href="American_Business_Presentation.pdf" target="_blank" class="text-blue-400 hover:underline">
+          Project 2: Presentation on American Buisness
+        </a>
+      </li>
+      <li>
+        <a href="Project 1  SCLA11100 (1).pdf" target="_blank" class="text-blue-400 hover:underline">
+          Project 1: Culture and Language Profile
+        </a>
+      </li>
+      <li>
+        <a href="SCLA11100 (1).mp4" target="_blank" class="text-blue-400 hover:underline">
+          Video Blog
+        </a>
+      </li>
+      <li>
+        <a href="Mother Tougue Reflection (2).pdf" target="_blank" class="text-blue-400 hover:underline">
+          Amy Tan Mother Tougue Essay Reflection
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+
+
+ 
+
+
+    <!-- TRANSITION SCRIPT -->
+    <script>
+      const portfolioBtn = document.getElementById('portfolio-btn');
+      const homeBtn = document.getElementById('home-btn');
+      const sclaBtn = document.getElementById('scla-btn');
+      const backToPortfolioBtn = document.getElementById('back-to-portfolio-btn');
+
+      const mainPage = document.getElementById('main-page');
+      const portfolioPage = document.getElementById('portfolio-page');
+      const sclaPage = document.getElementById('scla-page');
+
+      portfolioBtn.addEventListener('click', () => {
+        mainPage.classList.add('-translate-x-full');
+        portfolioPage.classList.remove('translate-x-full');
+      });
+
+      homeBtn.addEventListener('click', () => {
+        mainPage.classList.remove('-translate-x-full');
+        portfolioPage.classList.add('translate-x-full');
+      });
+
+      sclaBtn.addEventListener('click', () => {
+        portfolioPage.classList.add('-translate-x-full');
+        sclaPage.classList.remove('translate-x-full');
+      });
+
+      backToPortfolioBtn.addEventListener('click', () => {
+        portfolioPage.classList.remove('-translate-x-full');
+        sclaPage.classList.add('translate-x-full');
+      });
+    </script>
+  </body>
+</html>
